@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /webapp/src/main/webapp/index.jsp
+  - source: target/EmployeeApplication.war
     destination: /
 hooks:
   BeforeInstall:
