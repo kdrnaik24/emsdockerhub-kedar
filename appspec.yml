@@ -5,7 +5,6 @@ files:
     destination: /
 permissions:
 - object: scripts/
-    pattern: ""
     owner: root
     group: root
     mode: 777
