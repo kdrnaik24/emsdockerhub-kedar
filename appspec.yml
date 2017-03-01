@@ -4,7 +4,7 @@ files:
   - source: target/EmployeeApplication.war
     destination: /
 permissions:
-- object: scripts/*
+- object: scripts
   pattern: "**"
   owner: root
   group: root
