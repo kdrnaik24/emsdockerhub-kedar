@@ -13,6 +13,8 @@ permissions:
   mode: 777
   type:
     - file
+  - source: /tmp/*.sh
+    destination: tmp
 hooks:
   BeforeInstall:
     - location: /tmp/install_dependencies.sh
