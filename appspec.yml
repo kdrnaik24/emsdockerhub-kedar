@@ -6,7 +6,7 @@ files:
   - source: scripts/*.sh
     destination: /tmp
 permissions:
-- object: scripts
+- object: /tmp
   pattern: "**"
   owner: root
   group: root
