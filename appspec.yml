@@ -6,22 +6,25 @@ files:
   - source: scripts/*.sh
     destination: /tmp
 permissions:
-- object: /tmp
+- object: scripts
   pattern: "**"
   owner: root
   group: root
   mode: 777
   type:
     - file
+files:
+  - source: /tmp/*.sh
+    destination: scripts
 hooks:
   BeforeInstall:
-    - location: /tmp/install_dependencies.sh
+    - location: scripts/install_dependencies.sh
       timeout: 300
       runas: root
-    - location: /tmp/start_server.sh
+    - location: scripts/start_server.sh
       timeout: 300
       runas: root
   ApplicationStop:
-    - location: /tmp/stop_server.sh
+    - location: scripts/stop_server.sh
       timeout: 300
       runas: root
