@@ -3,6 +3,14 @@ os: linux
 files:
   - source: target/EmployeeApplication.war
     destination: /
+permissions:
+- object: scripts/
+    pattern: "*.sh"
+    owner: root
+    group: root
+    mode: 777
+    type:
+      - file
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
