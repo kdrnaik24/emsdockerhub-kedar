@@ -3,18 +3,6 @@ os: linux
 files:
   - source: target/EmployeeApplication.war
     destination: /
-  - source: scripts/*.sh
-    destination: /tmp
-permissions:
-  - object: /tmp
-    pattern: "**"
-    owner: root
-    group: root
-    mode: 777
-    type:
-      - file
-  - source: /tmp/*.sh
-    destination: tmp
 hooks:
   BeforeInstall:
     - location: /tmp/install_dependencies.sh
