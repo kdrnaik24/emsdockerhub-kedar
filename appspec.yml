@@ -2,16 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: target/EmployeeApplication.war
-    destination: /
-hooks:
-  BeforeInstall:
-    - location: /tmp/install_dependencies.sh
-      timeout: 300
-      runas: root
-    - location: /tmp/start_server.sh
-      timeout: 300
-      runas: root
-  ApplicationStop:
-    - location: /tmp/stop_server.sh
-      timeout: 300
-      runas: root
+    destination: /var/lib/tomcat7/webapps
