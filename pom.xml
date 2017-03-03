@@ -214,7 +214,8 @@
 	</dependencies>
 
 	<build>
-		<finalName>EmployeeApplication_${env.GIT_COMMIT}</finalName>
+		//<finalName>EmployeeApplication_${env.GIT_COMMIT}</finalName>
+		<finalName>EmployeeApplication</finalName>
 		<plugins>
 				<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
