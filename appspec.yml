@@ -4,4 +4,3 @@ files:
   - source: target/EmployeeApplication.war
     destination: /var/lib/tomcat7/webapps
 
-    
