@@ -1,1 +1,1 @@
-build 'pipelineFirst'
+bat 'mvn clean package'
