@@ -1,4 +1,4 @@
 node {
    echo 'Hello World'
-   bat 'mvn clean package'
+   bat 'clean package'
 }
