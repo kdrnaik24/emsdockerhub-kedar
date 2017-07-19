@@ -1,4 +1,4 @@
 node {
    echo 'Hello World'
-   bat 'clean package'
+   bat 'clean install package'
 }
