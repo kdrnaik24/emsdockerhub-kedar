@@ -13,5 +13,5 @@ permissions:
       - file     
 hooks:
    AfterInstall:
-     - location: deployartifact.sh
+     - location: /home/ubuntu/deployartifact.sh
        timeout: 3600
