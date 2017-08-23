@@ -5,7 +5,7 @@ files:
     destination: /home/ubuntu
 permissions:
   - object: /scripts
-    pattern: "*.sh"
+    pattern: "**"
     mode: 777
     type:
       - file     
