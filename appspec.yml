@@ -3,6 +3,8 @@ os: linux
 files:
   - source: target/EmployeeApplication.jar
     destination: /home/ubuntu
+  - source: scripts/deployartifact.sh
+    destination: /home/ubuntu  
 permissions:
   - object: /home/ubuntu
     pattern: "*.sh"
