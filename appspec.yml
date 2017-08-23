@@ -3,15 +3,13 @@ os: linux
 files:
   - source: target/EmployeeApplication.jar
     destination: /home/ubuntu
-  - source: scripts/deployartifact.sh
-    destination: /home/ubuntu  
 permissions:
-  - object: /home/ubuntu
+  - object: /scripts
     pattern: "*.sh"
     mode: 777
     type:
       - file     
 hooks:
    AfterInstall:
-     - location: /home/ubuntu/deployartifact.sh
+     - location: /scripts/deployartifact.sh
        timeout: 3600
