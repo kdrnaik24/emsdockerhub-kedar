@@ -14,5 +14,4 @@ hooks:
    AfterInstall:
      - location: /scripts/deployartifact.sh
        timeout: 3600
-       runas: root
 
