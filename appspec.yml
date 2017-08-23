@@ -1,5 +1,15 @@
 version: 0.0
 os: linux
 files:
-  - source: target/EmployeeApplication.jar
-    destination: /var/lib/tomcat7/webapps
+    -source: target/EmployeeApplication.jar
+     destination: /home/ubuntu/deploy
+permissions:
+  - object: /home/ubuntu/deploy
+    pattern: "*.sh"
+    mode: 777
+    type:
+      - file     
+hooks:
+   AfterInstall:
+     - location: scripts/deployartifact.sh
+       timeout: 3600
