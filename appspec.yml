@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
     -source: target/EmployeeApplication.jar
-     destination: /home/ubuntu/deploy
+     destination: /home/ubuntu
 permissions:
-  - object: /home/ubuntu/deploy
+  - object: /home/ubuntu
     pattern: "*.sh"
     mode: 777
     type:
