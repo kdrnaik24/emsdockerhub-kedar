@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-    -source: target/EmployeeApplication.jar
-     destination: /home/ubuntu
+  - source: target/EmployeeApplication.jar
+    destination: /home/ubuntu
 permissions:
   - object: /home/ubuntu
     pattern: "*.sh"
