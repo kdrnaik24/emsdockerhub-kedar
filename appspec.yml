@@ -12,6 +12,6 @@ permissions:
       - file     
 hooks:
    AfterInstall:
-     - location: /scripts/deployartifact.sh
+     - location: /scripts/deploy.sh
        timeout: 3600
 
