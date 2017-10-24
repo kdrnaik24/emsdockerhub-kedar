@@ -11,7 +11,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - docker build -t "Dockerfile"
+      - docker build -t EMS_JAVA:1.0 ..
   post_build:
     commands:
       - echo Build completed on `date`
