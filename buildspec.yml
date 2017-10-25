@@ -4,13 +4,16 @@ phases:
   pre_build:
     commands:
       - echo pre buils started on 'date'...
+      - echo loging to docker hub....
+      - docker login -u USERNAME -p $PASSWORD
   build:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...          
-      - docker build -t ems_java_docker_image:latest .   
+      - docker build -t kdrnaik24/ems_java_docker_image:latest .
+      - docker tag kdrnaik24/ems_java_docker_image:latest kdrnaik24/ems_java_docker_image:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push ems_java_docker_image
+      - docker push kdrnaik24/ems_java_docker_image:latest
