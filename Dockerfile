@@ -2,7 +2,7 @@
 FROM ubuntu:14.04
 
 #Adding discription to the images
-LABEL Description="This image is used for github->circleci->dockerhub->tutum->aws" Version="1.0"
+#LABEL Description="This image is used for github->circleci->dockerhub->tutum->aws" Version="1.0"
 
 # File Author / Maintainer
 MAINTAINER kedar
@@ -23,7 +23,7 @@ ENV PATH $CATALINA_HOME/bin:$PATH
 #RUN apt-get install -y wget
 
 #COPY ./target/*.war /var/lib/tomcat7/webapps/EmployeeApplication.war 
-EXPOSE 8080
+#EXPOSE 8080
  
 #CMD ["catalina.sh", "run"]
 
