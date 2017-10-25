@@ -22,10 +22,10 @@ ENV PATH $CATALINA_HOME/bin:$PATH
 
 #RUN apt-get install -y wget
 
-COPY ./target/*.war /var/lib/tomcat7/webapps/EmployeeApplication.war 
+#COPY ./target/*.war /var/lib/tomcat7/webapps/EmployeeApplication.war 
 EXPOSE 8080
  
-CMD ["catalina.sh", "run"]
+#CMD ["catalina.sh", "run"]
 
 #inastalling git jdk and maven
 #RUN apt-get update && apt-get install -y git maven openjdk-7-jdk
