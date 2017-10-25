@@ -13,4 +13,4 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push kdrnaik24/ems_java_docker_image:latest
+      - docker push ems_java_docker_image
