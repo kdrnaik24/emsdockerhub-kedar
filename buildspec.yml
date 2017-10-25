@@ -1,19 +1,16 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - echo Nothing to do in the install phase...
   pre_build:
     commands:
-      - echo Nothing to do in the pre_build phase...
+      - echo pre buils started on 'date'...
   build:
     commands:
       - echo Build started on `date`
-      - docker build -t EMS_JAVA:1.0 ..
+      - echo Building the Docker image...          
+      - docker build -t ems_java_docker_image:latest .   
   post_build:
     commands:
       - echo Build completed on `date`
-artifacts:
-  files:
-    - target/*.*
+      - echo Pushing the Docker image...
+      - docker push kdrnaik24/ems_java_docker_image:latest
