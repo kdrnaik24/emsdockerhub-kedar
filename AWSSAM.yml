@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "An AWS Serverless Specification template describing your function."
+Resources:
+  TestWFunction:
+   Type: AWS::Serverless::Function
+   Properties:
+      CodeUri: s3://SAMTemplate/WeatherApplication-1.jar
+      Handler: com.lambda.WeatherHandler
+      Runtime: java8
+      FunctionName: WeatherCityLambdaFunction
+      Role: arn:aws:iam::811441407573:role/LambdaRole
+  MYAPI: 
+    Properties: 
+      DefinitionUri: "s3://SAMTemplate/piyushManual.yml"
+      StageName: DEV
+    Type: "AWS::Serverless::Api"
+Transform: "AWS::Serverless-2016-10-31"
