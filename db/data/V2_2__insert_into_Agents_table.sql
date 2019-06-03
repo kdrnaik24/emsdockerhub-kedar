@@ -1,0 +1,5 @@
+INSERT INTO AGENTS VALUES ('A001', 'Subbarao', 'Bangalore', 0.14, '077-12346674', '');
+INSERT INTO AGENTS VALUES ('A002', 'Mukesh', 'Mumbai', 0.11, '029-12358964', '');
+INSERT INTO AGENTS VALUES ('A006', 'McDen', 'London', 0.15, '078-22255588', '');
+INSERT INTO AGENTS VALUES ('A004', 'Ivan', 'Torento', 0.15, '008-22544166', '');
+INSERT INTO AGENTS VALUES ('A009', 'Benjamin', 'Hampshair', 0.11, '008-22536178', '');

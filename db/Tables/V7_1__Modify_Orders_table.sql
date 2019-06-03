@@ -1,0 +1,1 @@
+ALTER TABLE Orders ADD ProductId nvarchar(255);

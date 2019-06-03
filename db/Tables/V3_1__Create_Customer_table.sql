@@ -1,0 +1,14 @@
+CREATE TABLE  "CUSTOMER" 
+   (	"CUST_CODE" nvarchar(6) NOT NULL PRIMARY KEY, 
+	"CUST_NAME" nvarchar(40) NOT NULL, 
+	"CUST_CITY" nvarchar(35), 
+	"WORKING_AREA" nvarchar(35) NOT NULL, 
+	"CUST_COUNTRY" nvarchar(20) NOT NULL, 
+	"GRADE" int, 
+	"OPENING_AMT" decimal(12,2) NOT NULL, 
+	"RECEIVE_AMT" decimal(12,2) NOT NULL, 
+	"PAYMENT_AMT" decimal(12,2) NOT NULL, 
+	"OUTSTANDING_AMT" decimal(12,2) NOT NULL, 
+	"PHONE_NO" nvarchar(17) NOT NULL, 
+	"AGENT_CODE" nvarchar(6) NOT NULL REFERENCES AGENTS
+);   
