@@ -1,0 +1,319 @@
+72c9c63 updated version to 1
+539dc45 updated version to 4
+6fa2e61 updated version to 3
+73ffb83 updated version to 2
+7eba403 updated version to 1
+d3d4a66 updated version to 4
+aa63af5 updated version to 3
+935636c updated version to 1
+fcfa62a updated version to 1
+46ab652 updated version to 4
+4edc23f updated version to 3
+dade832 snapshot version 2
+03cb587 xyz file updated again
+b46a256 xyz file updated
+8aa1e82 xyz file updated
+fc922a2 xyz file
+79d6f6b xyz file
+989b450 version updated to 1
+3c58210 xyz file updated
+795da0d updated version to 4
+33a3d4f updated xyz file
+99ce678 updated version to 3
+9295e0b updated version to 2
+2dd0211 updated 2 files
+6c8609e updated version to 4
+eebb74f updated snapshot version to 3
+37c460c updated snapshot version to 2
+de3a518 updated snapshot version to 1
+6bbcc87 updated snapshot version to 4
+415fd57 updated snapshot version to 3
+d0200d1 updated snapshot version to 2
+0c60c86 updated snapshot version to 1
+f3ede65 updated snapshot version
+af9a896 cobertura plugin commented
+a4005b8 sonar-maven-plugin version updated
+61f3f27 Update pom.xml
+583e28d Update pom.xml
+7caedc0 Update pom.xml
+3fc7bbf Update pom.xml
+34c7bad Update pom.xml
+2703f46 Update pom.xml
+1d59519 Update pom.xml
+d49220d Update pom.xml
+e36c9e9 version changed to 0.7.3
+a1eb711 Update pom.xml
+452a8b4 Update pom.xml
+394ec63 removed jacoco depedency
+3735e9a jacoco plugin is added under plugins section
+7a1d115 dependency for jacoco is added
+7edb717 jacoco plugin for maven is added
+d7f37a4 Update pom.xml
+1526e0b Update Jenkinsfile
+63bcb06 db folder is added
+5190248 Merge https://github.com/kdrnaik24/emsdockerhub-kedar
+ddc29e9 updated
+17d56e0 Jenkinsfile is updated
+2703a07 just to update a code- demo updated
+63e2f17 Create AWSSAM.yml
+7c59e3a Update demo
+1db3816 Update demo
+ee58c93 Update demo
+3414e72 Update demo
+9cd9c10 Update demo
+3d9900c Update demo
+fb3df04 Update buildspec.yml
+87f64d5 Update buildspec.yml
+47f175d Update Dockerfile
+164f0c8 Update Dockerfile
+8fb9505 Update Dockerfile
+46f5a16 Update buildspec.yml
+a06bf92 Delete buildspec.yml
+8db6851 Update buildspec.yml
+32fbba5 Update buildspec.yml
+98297a9 Update buildspec.yml
+45c031e Create buildspec.yml
+9e5739d Update Dockerfile
+999b9e1 Update buildspec.yml
+6983e59 Update pom.xml
+d2be35d Update buildspec.yml
+6006e12 Create buildspec.yml
+a6c45cb Update sonar-project.properties
+ac7d3e3 Update sonar-project.properties
+7ffaedd Update sonar-project.properties
+1a89e58 Update pom.xml
+f47b4df Update pom.xml
+6b5e704 Update appspec.yml
+5a806cc Create deploy.sh
+c386b14 Rename scripts/deployartifact.sh to deploy.sh
+6828560 Update appspec.yml
+4e0b5ac Update deployartifact.sh
+6e98722 permissions
+d3ba5d6 Update appspec.yml
+b611ea8 Update appspec.yml
+0f2f1ed Update appspec.yml
+df53859 Update appspec.yml
+f16a8a3 Update appspec.yml
+377e1de Update appspec.yml
+c531550 Create deployartifact.sh
+4d02d2c Rename scripts/deployartifact.sh to deployartifact.sh
+1ee9172 Update appspec.yml
+570fc5c Update deployartifact.sh
+bac15f0 Update appspec.yml
+bbc68f0 Update appspec.yml
+c637f2b Create deployartifact.sh
+6c8ad7a Update appspec.yml
+74a949b Update Jenkinsfile
+6ffe93d Update Jenkinsfile
+03e766e Update Jenkinsfile
+1bb84a8 Update Jenkinsfile
+db8fc28 Update Jenkinsfile
+0f46b45 Create Jenkinsfile
+2f5b8e9 updated JIR-10 #comment 'test comment1'
+9e007b9 updated JIR-10 #comment test comment1
+4d1bd96 updated JIR-10 #comment test comment
+c059323 pom updated JIR-10 #comment pom changed
+3caa186 Update pom.xml
+56d8961 sonar-project.properties edited online with Bitbucket
+aaf9d23 sonar-project.properties edited online with Bitbucket
+f93761e sonar project properties added
+eaf7aca Update pom.xml
+56dd28e Update pom.xml
+8a43c09 Update appspec.yml
+5bf5a1c Update appspec.yml
+a2c5d43 Update appspec.yml
+b04f131 Update appspec.yml
+9faca42 grtrfd
+4906601 k
+8b0d31b Update appspec.yml
+ffe393c Update appspec.yml
+e8c8c00 Update appspec.yml
+7e1caec Update appspec.yml
+b28ae73 Update appspec.yml
+4762901 Update appspec.yml
+8c39f05 Update appspec.yml
+c361064 Update appspec.yml
+bf89c6e Update appspec.yml
+88ec1ef Update appspec.yml
+f412254 Update appspec.yml
+688d261 Update appspec.yml
+0455ceb zendoo
+c638496 Delete stop_server.sh
+e47fd82 Delete start_server.sh
+e64b890 Delete install_dependencies.sh
+7493f94 Update appspec.yml
+e22e951 Rename stop_server to stop_server.sh
+d508e6c Rename start_server to start_server.sh
+39a1dd5 Rename install_dependencies to install_dependencies.sh
+dcbe119 from ubuntu
+36cc101 Delete stop_server
+90ccf03 Delete start_server
+a48460b Delete install_dependencies
+1ced240 scripts with permission
+9c3046f Delete stop_server
+00d6d42 Delete start_server
+7f1922e Delete install_dependencies
+4fd8bb7 new script
+ee79db7 Delete stop_server
+e1093bd Delete start_server
+75f009e Delete install_dependencies
+60b0041 two scripts added
+dd55dc3 ok
+62da368 Delete stop_server
+faab563 Delete start_server
+5423d84 Delete install_dependencies
+1983985 scripts added
+5efbf79 Merge https://github.com/kdrnaik24/emsdockerhub-pushpendra
+fd22556 done1
+66bae8c Update appspec.yml
+692c700 Update appspec.yml
+4dd8358 done
+d56de69 Delete stop_server
+08bf652 Delete start_server
+bda4658 ok
+de2c8c4 modified script
+38460bf Update appspec.yml
+7e370d6 Update and rename install_dependecies.sh to install_dependecies
+fd72193 Update install_dependecies.sh
+4a7699c updated appspec.yml with .sh
+2e6e8fd adding scripts and appspec.yml
+5dc19bd Update Dockerfile
+6647b6f added demo
+a1bf8b5 Update wercker.yml
+c1c483d Update appspec.yml
+f835fb0 Update circle.yml
+ad6d93d Update circle.yml
+2b03e0c Update circle.yml
+f21a7bd Update circle.yml
+e70b6f1 Create appspec.yml
+fd2b68e Update circle.yml
+65665f3 Update solano.yml
+137d4e0 Rename prehook to prehook.sh
+f8115e2 Update solano.yml
+9040f6b Create prehook
+efbf584 Create solano.yml
+39b5c67 Update shippable.yml
+d0ef91f Update shippable.yml
+f140360 Update shippable.yml
+7ab64b6 Update wercker.yml
+e51cfbb Update wercker.yml
+df33b55 Update wercker.yml
+9d4dec2 Update Dockerfile
+96f1ba0 Update wercker.yml
+9dcb7e0 Update wercker.yml
+1eb82a8 Update wercker.yml
+f3b8654 Update wercker.yml
+8871829 Update wercker.yml
+8bc56ce Update wercker.yml
+741ff12 Update wercker.yml
+f9f20da Update wercker.yml
+438f3d7 Create wercker.yml
+4284336 Update shippable.yml
+9b86042 Update shippable.yml
+8739a66 Update shippable.yml
+9cce222 Rename build.yml to shippable.yml
+0239e76 build.yml for shippable
+562112c Update circle.yml
+8d9fcef Update pom.xml
+3f3de05 Update pom.xml
+faa25ed Update pom.xml
+0c3b918 Update pom.xml
+f586915 Update pom.xml
+65b680e removed parameters
+639644b Update circle.yml
+9cb4f54 Update circle.yml
+e3ddc3e Update circle.yml
+9146d09 Update circle.yml
+8881534 Update circle.yml
+d30adfd Update circle.yml
+101807f Update circle.yml
+a5ad577 Update circle.yml
+b568715 Update circle.yml
+c499a97 Update circle.yml
+6ae643e Update circle.yml
+19146a5 Update circle.yml
+5a14de2 Update circle.yml
+9751492 Update circle.yml
+a280a99 Update circle.yml
+821da9a Update circle.yml
+3baca14 Update circle.yml
+c712d8d Update circle.yml
+d10e9dd Update circle.yml
+8da2e73 Update circle.yml
+c5593c5 Update circle.yml
+dff6566 Update circle.yml
+ced5c1b Update circle.yml
+089875b Update circle.yml
+6038dcc Update circle.yml
+0f9eb59 Update circle.yml
+b528d1c Update circle.yml
+f27168d Update circle.yml
+f8b29e2 Update circle.yml
+cbb7b32 Update circle.yml
+ec45a4f Update circle.yml
+d8196bf Update circle.yml
+56ce0aa Update circle.yml
+3eae846 Update circle.yml
+6ee70cc Update home.jsp
+5999be3 Update circle.yml
+5ead037 Update circle.yml
+d443f55 Update circle.yml
+ee9a0bc Update circle.yml
+51f38d8 Update circle.yml
+2198e50 Update circle.yml
+66347d6 Update circle.yml
+1fbfede Update home.jsp
+3ad034e Update circle.yml
+afaedac Update circle.yml
+50637e4 Update circle.yml
+92a8ae6 Update circle.yml
+a1889d8 Update circle.yml
+f2ae778 Update circle.yml
+8c44646 Update circle.yml
+0a5229f Update circle.yml
+78e3cc8 Update home.jsp
+7406c20 Update circle.yml
+35ed2dc Update circle.yml
+14ae5d4 Update circle.yml
+2c28060 Update circle.yml
+30c7219 Update circle.yml
+f74af36 Update circle.yml
+9b05013 Update circle.yml
+82e7620 Update circle.yml
+c0b27a8 Update circle.yml
+8f39ba4 Update circle.yml
+160066d Update circle.yml
+8b3f58f Update circle.yml
+305718d Update Dockerfile
+f6ccd5a Update Dockerfile
+a0b0d24 Update Dockerfile
+24c2082 Update Dockerfile
+9c6232e Update Dockerfile
+a34fe2d Update Dockerfile
+c1b669d Update circle.yml
+b325804 circle.yml with docker image creation and push
+e7de644 Update Dockerfile
+3cd152d Update circle.yml
+a5544d9 Update home.jsp
+4dd90cc Update demo
+8e47215 Update demo
+93eecbd Update circle.yml
+b50c909 Update circle.yml
+33098a4 added trigger with full command
+7d31057 Update circle.yml
+bfbead0 Update circle.yml
+d6682ad updated circle.yml 3rd time
+96e041e Update circle.yml
+2bda15e updated circle.yml
+2e7ea24 Update Dockerfile
+158eb99 Update EmployeeDAOImplTest.java
+37348a3 Update circle.yml
+71b6ec3 Update circle.yml
+52f4a63 Update circle.yml
+ba38249 Update circle.yml
+a11bb7d Update circle.yml
+97dddc1 Update EmployeeDAOImplTest.java
+9164d28 -dockerhub_trigger removed
+0f3b67f added mvn clean install in circle.yml
+b613a5f Adding circle.yml
+3de3387 first commit
