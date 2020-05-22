@@ -3,3 +3,5 @@ This is a temp file.
 payment()
 
 addToCart()
+
+viewcart()
