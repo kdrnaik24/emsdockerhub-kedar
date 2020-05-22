@@ -3,5 +3,6 @@ This is a temp file.
 payment()
 
 addToCart()
+bug fix in addtocart
 
 viewcart()
